@@ -1,0 +1,33 @@
+@import "assets/bootstrap/scss/functions";
+@import "assets/bootstrap/scss/variables";
+
+
+$primary: #3A7BFD;
+$secondary: #6c757d;
+$warning: #E8A656;
+
+
+
+$theme-colors: map-merge(
+  $theme-colors,
+  (
+    "primary": $primary,
+    "secondary": $secondary,
+    "warning": $warning,
+    "veryLightGray": #fafafa,
+    "veryLightGrayishBlue": #d3d8e3,
+    "lightGrayishBlue": #d2dde7,
+    "darkGrayishBlue": #727b8b,
+    "veryDarkGrayishBlue": #3c3f51,
+    "veryDarkBlue": #1a1d28,
+    "veryDarkDesaturatedBlue": #3a3f50,
+    "lightGrayishBlueDark": #e4e9f1,
+    "lightGrayishBlueHover": #d3d8e3,
+    "darkGrayishBlueDark": #4c5877,
+    "veryDarkGrayishBlueDark": #3a4045,
+    "veryDarkGrayishBlueDark2": #2e353f
+  )
+);
+
+
+@import "assets/bootstrap/scss/bootstrap";
