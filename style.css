@@ -15,7 +15,7 @@ body {font-size: 18px; font-family: var(--primaryFont); background: #FAFAFA;}
 .wrapper {width: 100%; max-width: 540px; margin: 0 auto}
 
 /* main {position: relative;} */
-main::before {content: ''; background: url(images/bg-desktop-light.jpg); top: 0; position: absolute; min-height: 300px; left: 0; right: 0; background-position: center/cover; z-index: -1; transition: 0.3s;}
+main::before {content: ''; background: url(images/bg-desktop-light.jpg) center/cover; top: 0; position: absolute; min-height: 300px; left: 0; right: 0;z-index: -1; transition: 0.3s;}
 main.dark::before {background: url(images//bg-desktop-dark.jpg) center/cover}
 
 .main_logo h1 {letter-spacing: 15px;}
